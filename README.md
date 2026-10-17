@@ -1,4 +1,4 @@
-## 🚀 Versión 1.0: Primer Modelo Base (LightGBM)
+### Versión 1.0: Primer Modelo Base (LightGBM)
 
 En esta primera iteración del proyecto, el enfoque principal estuvo en establecer un modelo de clasificación sólido utilizando exclusivamente **variables cuantitativas**. 
 
@@ -8,7 +8,7 @@ En esta primera iteración del proyecto, el enfoque principal estuvo en establec
 
 ### 🧠 Algoritmo y Entrenamiento
 * **Modelo Seleccionado:** **LightGBM**. Se optó por este modelo basado en árboles de decisión debido a su probada eficacia y excelente rendimiento para este tipo de datos.
-* **Código Fuente:** El detalle de los *features* utilizados y el flujo de trabajo se encuentran en el cuaderno [`PrimerModelo.ipynb`](PrimerModelo.ipynb).
+* **Código Fuente:** El detalle de los *features* utilizados y el flujo de trabajo se encuentran en el cuaderno [`ModeloML.ipynb`](ModeloML.ipynb).
 
 ### 📊 Evaluación y Resultados
 Para validar el potencial del modelo en la clasificación correcta de nuestro Target, se evaluó su capacidad predictiva mediante la **Curva ROC y el AUC**, midiendo la tasa de falsos positivos y falsos negativos.
@@ -16,3 +16,9 @@ Para validar el potencial del modelo en la clasificación correcta de nuestro Ta
 * **Score AUC Obtenido:** **🏆 0.74541**
 
 Alcanzar este puntaje en nuestro primer análisis completo ha sido un resultado genial y un gran alivio. Este desempeño establece un excelente punto de partida (*baseline*) sólido, el cual quedará documentado en este repositorio para medir y comparar directamente cómo evoluciona el rendimiento del modelo en las futuras iteraciones.
+
+### Version 2.0: Segundo Modelo:
+
+En esta parte se añadio un segundo modelo basado en el mismo paradigma que Light GBM (Xgboost) con el fin de rellenar los vacíos de los resultados obtenidos por el primer modelo, con el fin de ensamblar los resultados y mejorar la predicción
+
+* **Score AUC Obtenido:** **🏆 0.74689**
